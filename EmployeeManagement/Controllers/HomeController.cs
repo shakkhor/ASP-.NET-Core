@@ -1,15 +1,20 @@
 ﻿using System;
+using EmployeeManagement.Models;
+
 namespace EmployeeManagement.Controllers
 {
     public class HomeController
     {
-        public HomeController()
+        private IEmployeeRepository _employeeRepository;
+
+        public HomeController(IEmployeeRepository employeeRepository)
         {
+            _employeeRepository = employeeRepository;
         }
 
-        public string Index()
+        public Employee Index()
         {
-            return "Hello From MVC";
+            return _employeeRepository.GetEmployee(1);
         }
     }
 }

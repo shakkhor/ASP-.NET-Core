@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EmployeeManagement.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -24,6 +25,7 @@ namespace EmployeeManagement
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc((Microsoft.AspNetCore.Mvc.MvcOptions obj) =>  obj.EnableEndpointRouting= false);
+            services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
             
         }
 
