@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/user/ASP-.NET-Core/EmployeeManagement/EmployeeManagement.csproj": {}
+    "D:\\Personal\\ASP-.NET-Core\\EmployeeManagement\\EmployeeManagement.csproj": {}
   },
   "projects": {
-    "/Users/user/ASP-.NET-Core/EmployeeManagement/EmployeeManagement.csproj": {
+    "D:\\Personal\\ASP-.NET-Core\\EmployeeManagement\\EmployeeManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/ASP-.NET-Core/EmployeeManagement/EmployeeManagement.csproj",
+        "projectUniqueName": "D:\\Personal\\ASP-.NET-Core\\EmployeeManagement\\EmployeeManagement.csproj",
         "projectName": "EmployeeManagement",
-        "projectPath": "/Users/user/ASP-.NET-Core/EmployeeManagement/EmployeeManagement.csproj",
-        "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/ASP-.NET-Core/EmployeeManagement/obj/",
+        "projectPath": "D:\\Personal\\ASP-.NET-Core\\EmployeeManagement\\EmployeeManagement.csproj",
+        "packagesPath": "C:\\Users\\Abdullah Aziz.ABDULLAHAZIZ.000\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal\\ASP-.NET-Core\\EmployeeManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/user/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Abdullah Aziz.ABDULLAHAZIZ.000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.selise.biz/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,6 +38,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Razor.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
