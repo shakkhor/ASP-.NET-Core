@@ -36,7 +36,17 @@ namespace EmployeeManagement
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseStaticFiles();
+            //DefaultFilesOptions defaultFilesOptions = new DefaultFilesOptions();
+            //defaultFilesOptions.DefaultFileNames.Clear();
+            //defaultFilesOptions.DefaultFileNames.Add("htmlpage.html");
+            //app.UseDefaultFiles(defaultFilesOptions);
+            //app.UseStaticFiles();
+
+            FileServerOptions fileServerOptions = new FileServerOptions();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("htmlpage.html");
+            app.UseFileServer(fileServerOptions);
+
             app.UseMvcWithDefaultRoute();
 
             app.Run(async (context) =>
