@@ -57,7 +57,6 @@ E:/Projects/ASP-.NET/EmployeeManagement/obj/Debug/netcoreapp3.1/EmployeeManageme
 /Users/user/ASP-.NET-Core/EmployeeManagement/obj/Debug/netcoreapp3.1/EmployeeManagement.genruntimeconfig.cache
 D:\Personal\ASP-.NET-Core\EmployeeManagement\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Personal\ASP-.NET-Core\EmployeeManagement\bin\Debug\netcoreapp3.1\appsettings.json
-D:\Personal\ASP-.NET-Core\EmployeeManagement\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\Personal\ASP-.NET-Core\EmployeeManagement\bin\Debug\netcoreapp3.1\EmployeeManagement.exe
 D:\Personal\ASP-.NET-Core\EmployeeManagement\bin\Debug\netcoreapp3.1\EmployeeManagement.deps.json
 D:\Personal\ASP-.NET-Core\EmployeeManagement\bin\Debug\netcoreapp3.1\EmployeeManagement.runtimeconfig.json
@@ -72,3 +71,4 @@ D:\Personal\ASP-.NET-Core\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeMan
 D:\Personal\ASP-.NET-Core\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.genruntimeconfig.cache
 D:\Personal\ASP-.NET-Core\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csproj.CoreCompileInputs.cache
 D:\Personal\ASP-.NET-Core\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cache
+D:\Personal\ASP-.NET-Core\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csproj.AssemblyReference.cache

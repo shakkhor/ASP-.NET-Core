@@ -41,7 +41,7 @@ namespace EmployeeManagement
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello");
+                await context.Response.WriteAsync("Hello world");
             });
         }
     }
