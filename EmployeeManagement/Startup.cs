@@ -33,7 +33,7 @@ namespace EmployeeManagement
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
-            {
+            {              
                 app.UseDeveloperExceptionPage();
             }
             //DefaultFilesOptions defaultFilesOptions = new DefaultFilesOptions();
@@ -42,15 +42,18 @@ namespace EmployeeManagement
             //app.UseDefaultFiles(defaultFilesOptions);
             //app.UseStaticFiles();
 
-            FileServerOptions fileServerOptions = new FileServerOptions();
-            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
-            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("htmlpage.html");
-            app.UseFileServer(fileServerOptions);
+            //FileServerOptions fileServerOptions = new FileServerOptions();
+            //fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
+            //fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("htmlpage.html");
+            //app.UseFileServer(fileServerOptions);
+
+            //app.UseFileServer();
 
             app.UseMvcWithDefaultRoute();
 
             app.Run(async (context) =>
             {
+                throw new Exception("Some error occured");
                 await context.Response.WriteAsync("Hello world");
             });
         }
