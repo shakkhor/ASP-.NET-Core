@@ -15,7 +15,7 @@ namespace EmployeeManagement.Controllers
 
         public Employee Index()
         {
-            return _employeeRepository.GetEmployee(1);
+            return _employeeRepository.GetEmployeeById(1);
         }
     }
 }

@@ -3,6 +3,6 @@ namespace EmployeeManagement.Models
 {
     public interface IEmployeeRepository
     {
-        Employee GetEmployee(int Id);
+        Employee GetEmployeeById(int Id);
     }
 }

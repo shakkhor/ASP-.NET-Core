@@ -18,7 +18,7 @@ namespace EmployeeManagement.Models
             };
         }
        
-        public Employee GetEmployee(int Id)
+        public Employee GetEmployeeById(int Id)
         {
             return _employeeList.FirstOrDefault(x => x.Id == Id);
         }
