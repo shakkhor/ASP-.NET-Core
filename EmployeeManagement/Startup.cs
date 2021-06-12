@@ -48,12 +48,12 @@ namespace EmployeeManagement
             //app.UseFileServer(fileServerOptions);
 
             //app.UseFileServer();
-
+            app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
 
             app.Run(async (context) =>
             {
-                throw new Exception("Some error occured");
+                //throw new Exception("Some error occured");
                 await context.Response.WriteAsync("Hello world");
             });
         }
