@@ -1,9 +1,10 @@
 ﻿using System;
 using EmployeeManagement.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeManagement.Controllers
 {
-    public class HomeController
+    public class HomeController : Controller
     {
         private IEmployeeRepository _employeeRepository;
 
