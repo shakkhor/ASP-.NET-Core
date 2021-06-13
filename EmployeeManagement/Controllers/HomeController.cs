@@ -20,10 +20,10 @@ namespace EmployeeManagement.Controllers
 
         public ViewResult ViewDataDetails()
         {
-            Employee employee = _employeeRepository.GetEmployeeById(2);
+            Employee employee = _employeeRepository.GetEmployeeById(1);
             ViewData["Employee"] = employee;
             ViewData["PageTitle"] = "Employee Details";
-            return View(employee);
+            return View();
         }
 
         public ViewResult ViewBagDetails()
@@ -31,14 +31,13 @@ namespace EmployeeManagement.Controllers
             Employee employee = _employeeRepository.GetEmployeeById(2);
             ViewBag.Employee = employee;
             ViewBag.PageTitle = "Employee Details";
-            return View(employee);
+            return View();
         }
 
         public ViewResult StronglyTypedDetails()
         {
-            Employee employee = _employeeRepository.GetEmployeeById(2);
-            ViewBag.Employee = employee;
-            ViewBag.PageTitle = "Employee Details";
+            Employee employee = _employeeRepository.GetEmployeeById(3);
+          
             return View(employee);
         }
 
