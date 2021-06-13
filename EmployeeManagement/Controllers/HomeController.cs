@@ -18,11 +18,27 @@ namespace EmployeeManagement.Controllers
             return _employeeRepository.GetEmployeeById(1);
         }
 
-        public ViewResult Details()
+        public ViewResult ViewDataDetails()
         {
             Employee employee = _employeeRepository.GetEmployeeById(2);
             ViewData["Employee"] = employee;
             ViewData["PageTitle"] = "Employee Details";
+            return View(employee);
+        }
+
+        public ViewResult ViewBagDetails()
+        {
+            Employee employee = _employeeRepository.GetEmployeeById(2);
+            ViewBag.Employee = employee;
+            ViewBag.PageTitle = "Employee Details";
+            return View(employee);
+        }
+
+        public ViewResult StronglyTypedDetails()
+        {
+            Employee employee = _employeeRepository.GetEmployeeById(2);
+            ViewBag.Employee = employee;
+            ViewBag.PageTitle = "Employee Details";
             return View(employee);
         }
 
