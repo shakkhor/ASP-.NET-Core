@@ -18,10 +18,10 @@ namespace EmployeeManagement.Controllers
             return _employeeRepository.GetEmployeeById(1);
         }
 
-        public ObjectResult Details()
+        public ViewResult Details()
         {
             Employee employee = _employeeRepository.GetEmployeeById(2);
-            return new ObjectResult(employee);
+            return View(employee);
         }
 
     }
