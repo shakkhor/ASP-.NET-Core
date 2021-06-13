@@ -1,5 +1,6 @@
 ﻿using System;
 using EmployeeManagement.Models;
+using EmployeeManagement.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeManagement.Controllers
@@ -37,8 +38,12 @@ namespace EmployeeManagement.Controllers
         public ViewResult StronglyTypedDetails()
         {
             Employee employee = _employeeRepository.GetEmployeeById(3);
-          
-            return View(employee);
+            var viewModel = new HomeDetailsVeiwModel
+            {
+                Employee = employee,
+                Title = "Employee Detaisl"
+            };
+            return View(viewModel);
         }
 
     }

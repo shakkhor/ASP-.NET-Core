@@ -14,7 +14,7 @@ namespace EmployeeManagement.Models
             {
                 new Employee(){ Id=1, Department="HR", Name="John", Email="john@yopmail.com"},
                 new Employee(){ Id=2, Department="HR1", Name="John1", Email="john1@yopmail.com"},
-                new Employee(){ Id=2, Department="HR2", Name="John2", Email="john2@yopmail.com"}
+                new Employee(){ Id=3, Department="HR2", Name="John2", Email="john2@yopmail.com"}
             };
         }
        

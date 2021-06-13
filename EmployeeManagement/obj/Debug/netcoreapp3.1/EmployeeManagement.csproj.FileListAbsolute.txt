@@ -95,3 +95,4 @@ D:\Personal\ASP-.NET-Core\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeMan
 D:\Personal\ASP-.NET-Core\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.genruntimeconfig.cache
 D:\Personal\ASP-.NET-Core\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\ViewBagDetails.cshtml.g.cs
 D:\Personal\ASP-.NET-Core\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\ViewDataDetails.cshtml.g.cs
+D:\Personal\ASP-.NET-Core\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\StronglyTypedDetails.cshtml.g.cs
