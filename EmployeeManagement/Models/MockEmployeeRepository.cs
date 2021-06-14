@@ -6,7 +6,7 @@ namespace EmployeeManagement.Models
 {
     public class MockEmployeeRepository : IEmployeeRepository
     {
-        private List<Employee> _employeeList;
+        private readonly List<Employee> _employeeList;
 
         public MockEmployeeRepository()
         {
@@ -17,7 +17,12 @@ namespace EmployeeManagement.Models
                 new Employee(){ Id=3, Department="HR2", Name="John2", Email="john2@yopmail.com"}
             };
         }
-       
+
+        public IEnumerable<Employee> GetAllEmployees()
+        {
+            return _employeeList;
+        }
+
         public Employee GetEmployeeById(int Id)
         {
             return _employeeList.FirstOrDefault(x => x.Id == Id);

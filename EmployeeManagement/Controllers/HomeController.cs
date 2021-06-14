@@ -7,16 +7,17 @@ namespace EmployeeManagement.Controllers
 {
     public class HomeController : Controller
     {
-        private IEmployeeRepository _employeeRepository;
+        private readonly IEmployeeRepository _employeeRepository;
 
         public HomeController(IEmployeeRepository employeeRepository)
         {
             _employeeRepository = employeeRepository;
         }
 
-        public Employee Index()
+        public ViewResult Index()
         {
-            return _employeeRepository.GetEmployeeById(1);
+            var model = _employeeRepository.GetAllEmployees();
+            return View(model);
         }
 
         public ViewResult ViewDataDetails()

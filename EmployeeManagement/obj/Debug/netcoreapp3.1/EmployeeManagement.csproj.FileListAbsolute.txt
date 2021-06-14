@@ -84,7 +84,6 @@ D:\Personal\ASP-.NET-Core\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.D
 D:\Personal\ASP-.NET-Core\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 D:\Personal\ASP-.NET-Core\EmployeeManagement\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Personal\ASP-.NET-Core\EmployeeManagement\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
-D:\Personal\ASP-.NET-Core\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csproj.AssemblyReference.cache
 D:\Personal\ASP-.NET-Core\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.RazorAssemblyInfo.cache
 D:\Personal\ASP-.NET-Core\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.RazorAssemblyInfo.cs
 D:\Personal\ASP-.NET-Core\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
