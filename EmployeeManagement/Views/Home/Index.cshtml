@@ -1,9 +1,10 @@
-﻿@Model IEnumerable<EmployeeManagement.Models.Employee>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title></title>
-</head>
-<body>
+﻿
+
+@{
+    Layout = "~/Views/shared/_Layout.cshtml";
+    ViewBag.Title = "Employee List";
+}
+
     <table>
         <thead>
             <tr>
@@ -23,5 +24,4 @@
             }
         </tbody>
     </table>
-</body>
-</html>
+
